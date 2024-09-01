@@ -19,7 +19,7 @@ peliculas.forEach(pelicula => {
 // app.js
 
 const fs = require('fs'); // Importar el módulo 'fs' para manejar archivos
-const path = './mensaje.txt'; // Ruta del archivo mensaje.txt
+const path = './tp_07_objetos/proyecto/mensaje.txt'; // Ruta del archivo mensaje.txt
 
 // Leer el contenido del archivo
 fs.readFile(path, 'utf8', (err, data) => {
