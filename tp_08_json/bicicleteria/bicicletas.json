@@ -1,0 +1,57 @@
+[
+    {
+        "marca": "Fierce",
+        "modelo": "FM18SI29AM211",
+        "rodado": 29,
+        "ano": 2021,
+        "color": "Rojo",
+        "peso_kg": 15,
+        "tipo": "Montañera",
+        "precio": 1200.50,
+        "vendida": "no"
+    },
+    {
+        "marca": "Shifter",
+        "modelo": "FM18F29AM210",
+        "rodado": 29,
+        "ano": 2022,
+        "color": "Negro",
+        "peso_kg": 16,
+        "tipo": "Paseo",
+        "precio": 1000.00,
+        "vendida": "sí"
+    },
+    {
+        "marca": "Olmo",
+        "modelo": "Regal",
+        "rodado": 26,
+        "ano": 2020,
+        "color": "Gris",
+        "peso_kg": 14,
+        "tipo": "Retro",
+        "precio": 800.75,
+        "vendida": "no"
+    },
+    {
+        "marca": "Battle",
+        "modelo": "Sunshine",
+        "rodado": 28,
+        "ano": 2021,
+        "color": "Celeste",
+        "peso_kg": 13,
+        "tipo": "Triatlón",
+        "precio": 1500.00,
+        "vendida": "no"
+    },
+    {
+        "marca": "TopMega",
+        "modelo": "Techno",
+        "rodado": 16,
+        "ano": 2019,
+        "color": "Amarillo",
+        "peso_kg": 17,
+        "tipo": "Montañera",
+        "precio": 950.00,
+        "vendida": "sí"
+    }
+]
