@@ -1,5 +1,5 @@
 //MICRODESAFIO 1 DESTRUCTURING & SPREAD OPERATOR
-const { Importar } = require('./coleccionables');
+const { Importar } = require('./collectibles');
 
 // Ejemplo de uso de la función importar
 const hotToysFigures = Importar('Hot Toys');
