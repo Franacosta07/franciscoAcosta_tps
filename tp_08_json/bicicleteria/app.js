@@ -1,24 +1,35 @@
-const fs = require('fs');
+const leerBicicletas = require('./datosBici');
 
-// Leer el contenido del archivo bicicletas.json
-fs.readFile('./bicicletas.json', 'utf8', (err, data) => {
-    if (err) {
-        console.error('Error al leer el archivo:', err);
-        return;
+const dhBici = {
+    bicicletas: leerBicicletas(),
+
+    buscarBici: function(id) {
+        return this.bicicletas.find(bici => bici.id === id) || null;
+    },
+
+    venderBici: function(id) {
+        const bici = this.buscarBici(id);
+        if (bici) {
+            bici.vendida = "si";
+            return bici;
+        } else {
+            return "Bicicleta no encontrada";
+        }
+    },
+
+    biciParaLaVenta: function() {
+        return this.bicicletas.filter(bici => bici.vendida === "no");
+    },
+
+    totalDeVentas: function() {
+        return this.bicicletas
+            .filter(bici => bici.vendida === "si")
+            .reduce((total, bici) => total + bici.precio, 0);
     }
-    
-    const bicicletas = JSON.parse(data); // Convertir el contenido a un objeto JavaScript
-    console.log('Lista de bicicletas en stock:');
-    bicicletas.forEach(bicicleta => {
-        console.log(`Marca: ${bicicleta.marca}`);
-        console.log(`Modelo: ${bicicleta.modelo}`);
-        console.log(`Rodado: ${bicicleta.rodado}`);
-        console.log(`Año: ${bicicleta.ano}`);
-        console.log(`Color: ${bicicleta.color}`);
-        console.log(`Peso: ${bicicleta.peso_kg} kg`);
-        console.log(`Tipo: ${bicicleta.tipo}`);
-        console.log(`Precio: $${bicicleta.precio}`);
-        console.log(`Vendida: ${bicicleta.vendida}`);
-        console.log('--------------------------');
-    });
-});
+};
+
+// Comprobación de la funcionalidad
+console.log(dhBici.buscarBici(2));
+console.log(dhBici.venderBici(1));
+console.log(dhBici.biciParaLaVenta());
+console.log(dhBici.totalDeVentas());
