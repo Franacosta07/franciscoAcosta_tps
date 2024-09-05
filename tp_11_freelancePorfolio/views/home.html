@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Freelance Portfolio</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://kit.fontawesome.com/c65f2f1cc8.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- cabecera de la página -->
-    <header>
+    <header class="header">
       <!-- logotipo/marca -->
-      <a href="">freelance portfolio</a>
+      <a class="header__a--logo" href="/">freelance portfolio</a>
+      <a class="header__menu" href="#">MENU <i class="fa-solid fa-bars"></i></a>
       <!-- menu de navegación -->
-      <nav>
+      <nav class="nav--principal ul">
         <ul>
           <li>
             <a href="#portfolio">portfolio</a>
@@ -26,17 +29,18 @@
       </nav>
     </header>
     <!-- sección principal del sitio -->
-    <main>
+    <main class="main">
       <!-- sección banner -->
-      <section>
+      <section class="main__banner">
         <!-- imagen de perfil -->
         <img src="/images/profile.png" alt="imagen de perfil" />
         <!-- nombre de perfil -->
+      
         <h1>freelance portfolio</h1>
         <!-- adorno estrella -->
         <div>
           <hr />
-          <p>estrella</p>
+          <p> <i class="fa-solid fa-star" style="color: #ffffff;"></i></p>
           <hr />
         </div>
         <!-- descripción corta del perfil -->
@@ -44,11 +48,11 @@
       </section>
 
       <!-- sección de imagenes del portfolio -->
-      <section>
+      <section class="main__portfolio">
         <h2>portfolio</h2>
         <div>
           <hr />
-          <p>estrella</p>
+          <p><i class="fa-solid fa-star" style="color: var(--color-azul);"></i></p>
           <hr />
         </div>
         <div class="home__main__section--portfolio--images">
@@ -62,11 +66,11 @@
       </section>
 
       <!-- seccion acerca de mí -->
-      <section>
+      <section class="main__about">
         <h2>about</h2>
         <div>
           <hr />
-          <p>estrella</p>
+          <p><i class="fa-solid fa-star" style="color: #ffffff;"></i></p>
           <hr />
         </div>
         <div>
@@ -81,6 +85,7 @@
             professional looking to attact clients, or a graphic artist looking
             to share your projects, this template is the perferct starting
             point!
+            <a href="/"><i class="fa-solid fa-download"> Download Now!</i></a>
           </p>
         </div>
       </section>
@@ -92,10 +97,14 @@
     </main>
     <!-- pie de pagina (footer) -->
      <footer>
-      <section>
+      <section class="footer">
         <!-- dirección -->
-        <article>
-            <h3>location</h3>
+        <article class=" footer__article">
+          <h3 class="footer__article__h3">contact me</h3> <hr> <i class="fa-solid fa-star"
+          style="color: var(--color-azul)"></i> <hr>
+          </article>
+          <article class="footer__article__2">
+            <p>location</p>
             <p>2215 Jhon Daniel Drive</p>
             <p>Clark, MO 65243</p>
         </article>
@@ -103,17 +112,17 @@
         <article>
             <h3>around the web</h3>
             <div>
-                <a href="">facebook</a>
-                <a href="">google</a>
-                <a href="">twitter</a>
-                <a href="">linkedin</a>
-                <a href="">dribbble</a>
+                <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-dribbble"></i></a>
             </div>
         </article>
         <!-- acerca de mi -->
         <article>
             <h3>about freelancer</h3>
-            <p>Freelance is free and open souce landing page theme created to <span>your free personal use</span>.</p>
+            <p>Freelance is free and open souce landing page theme created to <span class="footer__article__3">your free personal use</span>.</p>
         </article>
     </section>
      </footer>

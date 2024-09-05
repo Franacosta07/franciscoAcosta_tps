@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@import url("./variables.css");
+@import url("./general.css");
+
+/* HEADER*/
+.header {
+  color: white;
+  background-color: var(--color-azul);
+}
+.header img {
+  width: 300px;
+}
+.header__a--logo {
+  text-transform: uppercase;
+  display: block;
+ color: #ffffff;
+}
+.header__menu {
+  background-color: var(--color-verde);
+}
+.nav--principal {
+}
+.nav--principal ul {
+  list-style: none;
+  display: none;
+
+}
+
+/*MAIN*/
+.main {
+}
+.main__banner {
+  background-color: var(--color-verde);
+  text-align: center;
+  color: #ffffff;
+}
+.main__about {
+  background-color: var(--color-verde);
+  text-align: center;
+  color: white;
+}
+.main__portfolio {
+  text-align: center;
+}
+.main__portfolio img {
+  width: 300px;
+}
+
+/* SECTION -- BANNER */
+.section {
+}
+.section__portfolio {
+}
+/*FOOTER*/
+.footer {
+  background-color: var(--color-azul);
+  text-align: center;
+  color: white;
+}
+.footer__article {
+  background-color: #ffffff;
+}
+.footer__article__h3 {
+  background-color: white;
+  color: var(--color-azul);
+}
+.footer__article__2 {
+  color: #ffffff;
+}
+.footer__article__3 {
+  color: var(--color-verde);
+}
