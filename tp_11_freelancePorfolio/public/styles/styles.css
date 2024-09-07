@@ -10,19 +10,23 @@
   color: white;
   background-color: var(--color-azul);
 }
+
 .header img {
   width: 300px;
 }
+
 .header__a--logo {
   text-transform: uppercase;
   display: block;
- color: #ffffff;
+  color: #ffffff;
 }
+
 .header__menu {
   background-color: var(--color-verde);
 }
-.nav--principal {
-}
+
+.nav--principal {}
+
 .nav--principal ul {
   list-style: none;
   display: none;
@@ -30,46 +34,64 @@
 }
 
 /*MAIN*/
-.main {
-}
+.main {}
+
 .main__banner {
   background-color: var(--color-verde);
   text-align: center;
   color: #ffffff;
 }
+
 .main__about {
   background-color: var(--color-verde);
   text-align: center;
   color: white;
 }
+
 .main__portfolio {
   text-align: center;
 }
+
 .main__portfolio img {
+    display: inline-block;
   width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  vertical-align: top;
 }
 
 /* SECTION -- BANNER */
-.section {
-}
-.section__portfolio {
-}
+.section {}
+
+.section__portfolio {}
+
 /*FOOTER*/
 .footer {
   background-color: var(--color-azul);
   text-align: center;
   color: white;
 }
+
 .footer__article {
   background-color: #ffffff;
 }
+
 .footer__article__h3 {
   background-color: white;
   color: var(--color-azul);
 }
+
 .footer__article__2 {
   color: #ffffff;
 }
+
 .footer__article__3 {
   color: var(--color-verde);
+}
+
+.caja {
+
 }
