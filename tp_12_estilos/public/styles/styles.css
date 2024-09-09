@@ -1,24 +1,46 @@
 header {
     background-color: rgb(236, 212, 31);
+    font-size: 12px;
 }
-footer {
-    background-color: rgb(112, 117, 122);
-}body {
+
+
+body {
     background-color: antiquewhite;
 }
+
 .body__roboto__thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
+main {
+font-size: 12px;
+}
+.main__section__a {
+    background-color: rgb(112, 117, 122);
+    font-size: 24px;
+}
+#precios {
+    font-size: 18px;
+}
+#descuentos {
+    font-size: 16px;
+}
+#descripciones {
+    font-size: 16px;
+}
+footer {
+    background-color: rgb(112, 117, 122);
+    font-size: 12px;
+}
+
 .titulo_footer {
     background-color: rgb(236, 212, 31);
-    font-size: 25px;
+   
 }
-.secciones{
-    background-color: rgb(112, 117, 122);
-    font-size: 25px;
-}
+
+
+
 
 /*Cuerpos de texto: 12px
 Titulares (Basado en tu última visita/Ofertas): 24px
