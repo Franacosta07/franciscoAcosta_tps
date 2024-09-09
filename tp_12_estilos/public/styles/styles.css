@@ -1,11 +1,53 @@
 header {
     background-color: rgb(236, 212, 31);
     font-size: 12px;
+    margin: 0%;
+}
+.header__busqueda{
+    display: inline-block;                /* Convierte el elemento en bloque */
+    
+    left: 10px;                    /* Lo coloca a la izquierda con un margen de 10px */
+    top: 20px;                     /* Ajusta la distancia desde la parte superior */
+    background-color: white;       /* Fondo blanco alrededor de la lupa */
+    padding: 1px;                 /* Espacio alrededor del ícono */
+    border: 1px solid #666;       
+  
+}
+.header__menu {
+
+    display: flex;
+    /* Flexbox para centrar el contenido */
+    justify-content: center;
+    /* Centra horizontalmente el ícono */
+    align-items: center;
+    /* Centra verticalmente el ícono */
+    width: 50px;
+    /* Ancho del cuadrado */
+    height: 50px;
+    /* Altura del cuadrado, igual al ancho */
+    background-color: #1259c3;
+    /* Color de fondo del cuadrado */
+    border-radius: 5px;
+    /* Bordes redondeados opcionales */
+    margin: 0 auto;
+    /* Centrar el cuadrado en la página */
+    font-size: 24px;
+    /* Tamaño del ícono */
+
+}
+.header__logo{
+ display: block;
+    width: 100px;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    size: 40px;
 }
 
-
 body {
-    background-color: antiquewhite;
+    background-color: #ebebeb;
+
+  
 }
 
 .body__roboto__thin {
@@ -13,30 +55,42 @@ body {
     font-weight: 100;
     font-style: normal;
 }
+
 main {
-font-size: 12px;
+   
+    background-color: #ebebeb;
 }
+
 .main__section__a {
     background-color: rgb(112, 117, 122);
     font-size: 24px;
 }
+
 #precios {
     font-size: 18px;
 }
+
 #descuentos {
     font-size: 16px;
 }
+
 #descripciones {
     font-size: 16px;
 }
+
 footer {
-    background-color: rgb(112, 117, 122);
+    background-color: #ffff;
     font-size: 12px;
+   
+}
+.footer__section{
+    display: inline-block;
+
 }
 
+
 .titulo_footer {
-    background-color: rgb(236, 212, 31);
-   
+    font-style: normal;
 }
 
 
