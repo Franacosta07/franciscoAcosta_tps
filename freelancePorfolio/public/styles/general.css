@@ -1,16 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;}
-body{
-    font-family: "Lato", sans-serif;
+* {
+  margin: 0;
+
+  box-sizing: border-box;
 }
-h1, h2, h3 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
+
+body {
+  font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 a {
-    text-decoration: none;
-    color: #ffff;
+  text-decoration: none;
+  color: #ffff;
+}
+.box__star{
+margin: 20px;
+display: inline-block;
 }
 /*header {
     font-family: "Montserrat", sans-serif;

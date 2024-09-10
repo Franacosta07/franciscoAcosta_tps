@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Freelance Portfolio</title>
-    <link rel="stylesheet" href="/styles/styles.css">
-    <script src="https://kit.fontawesome.com/c65f2f1cc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c65f2f1cc8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- cabecera de la página -->
@@ -33,30 +36,38 @@
       <!-- sección banner -->
       <section class="main__banner">
         <!-- imagen de perfil -->
-        <img class="main__banner--img" src="/images/profile.png" alt="imagen de perfil" />
+        <img
+          class="main__banner--img"
+          src="/images/profile.png"
+          alt="imagen de perfil"
+        />
         <!-- nombre de perfil -->
       </section>
       <section class="main__sectionTitulo">
         <h1 class="main__titulo">freelance portfolio</h1>
         <!-- adorno estrella -->
-        <div>
+        <div class="box__star">
           <hr />
-          <p> <i class="fa-solid fa-star" style="color: #ffffff;"></i></p>
+          <p><i class="fa-solid fa-star" style="color: #ffffff"></i></p>
           <hr />
         </div>
         <!-- descripción corta del perfil -->
-        <p>Web Developer - Graphic Artist - User Experience Designer</p>
+        <p class="main__section__P">
+          Web Developer - Graphic Artist - User Experience Designer
+        </p>
       </section>
 
       <!-- sección de imagenes del portfolio -->
       <section class="main__portfolio">
         <h2>portfolio</h2>
-        <div > 
+        <div class="box__star">
           <hr />
-          <p><i class="fa-solid fa-star" style="color: var(--color-azul);"></i></p>
+          <p>
+            <i class="fa-solid fa-star" style="color: var(--color-azul)"></i>
+          </p>
           <hr />
         </div>
-        <div class="home__main__section--portfolio--images">
+        <div class="main__section--img">
           <img src="/images/cabin.png" alt="imagen de cabaña" />
           <img src="/images/cake.png" alt="imagen de pastel" />
           <img src="/images/circus.png" alt="imagen de circo" />
@@ -69,63 +80,77 @@
       <!-- seccion acerca de mí -->
       <section class="main__about">
         <h2>about</h2>
-        <div>
+        <div class="box__star">
           <hr />
-          <p><i class="fa-solid fa-star" style="color: #ffffff;"></i></p>
+          <p><i class="fa-solid fa-star" style="color: #ffffff"></i></p>
           <hr />
         </div>
-        <div>
-          <p>
+        <div">
+          <p class="#about">
             Freelance is a free landing page theme created for free use. The
             download includes the complete source files including HTML, CSS, and
             JavaScript as weel as optional SASS stylesheets for easy
-            customization
-          </p>
-          <p>
+            customization.
+         </p>
+         <p class="#about">
             Whether you're a student looking to showcase your work, a
             professional looking to attact clients, or a graphic artist looking
             to share your projects, this template is the perferct starting
             point!
-            <a href="/"><i class="fa-solid fa-download"> Download Now!</i></a>
           </p>
+            <a class="#about" href="/">
+              <i class="fa-solid fa-download">
+                <span>Download Now!</span>
+              </i>
+            </a>
         </div>
       </section>
 
       <!-- seccion del formulario de contacto -->
       <section>
-
+        <!--aqui va el formulario-->
       </section>
     </main>
     <!-- pie de pagina (footer) -->
-     <footer>
+    <footer>
       <section class="footer">
         <!-- dirección -->
-        <article class=" footer__article">
-          <h3 class="footer__article__h3">contact me</h3> <hr> <i class="fa-solid fa-star"
-          style="color: var(--color-azul)"></i> <hr>
-          </article>
-          <article class="footer__article__2">
-            <p>location</p>
-            <p>2215 Jhon Daniel Drive</p>
-            <p>Clark, MO 65243</p>
+        <article class="footer__article">
+          <h3 class="footer__article__h3">contact me</h3>
+          <div class="box__star">
+            <hr />
+            <i class="fa-solid fa-star" style="color: var(--color-azul)"></i>
+            <hr />
+          </div>
+        </article>
+        <article class="footer__article__2">
+          <h3>location</h3>
+          <p>2215 Jhon Daniel Drive</p>
+          <p>Clark, MO 65243</p>
         </article>
         <!-- redes sociales -->
-        <article>
-            <h3>around the web</h3>
-            <div>
-                <a href=""> <i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-google"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                <a href=""><i class="fa-brands fa-dribbble"></i></a>
-            </div>
+        <article class="footer__article__2">
+          <h3>around the web</h3>
+          <div class="footer__article--div">
+            <a href=""> <i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-google"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-dribbble"></i></a>
+          </div>
         </article>
         <!-- acerca de mi -->
-        <article>
-            <h3>about freelancer</h3>
-            <p>Freelance is free and open souce landing page theme created to <span class="footer__article__3">your free personal use</span>.</p>
+        <article class="footer__article__2">
+          <h3>about freelancer</h3>
+          <p>
+            Freelance is free and open souce landing page theme created to
+            <span class="footer__article__3">your free personal use</span>.
+          </p>
         </article>
-    </section>
-     </footer>
+      </section>
+      <section class="footer__copyright">
+        <p>Copyright Your Website 2024 All rights reserved.</p>
+      </section>
+    </footer>
   </body>
 </html>
