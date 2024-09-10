@@ -1,7 +1,11 @@
+@import url("./variables.css");
+@import url("./general.css");
 header {
     background-color: rgb(236, 212, 31);
     font-size: 12px;
     margin: 0%;
+    padding-bottom: 10px;
+    padding-left:  10px;
 }
 .header__busqueda{
     display: inline-block;                /* Convierte el elemento en bloque */
@@ -46,8 +50,8 @@ header {
 
 body {
     background-color: #ebebeb;
-
-  
+margin: 0;
+  padding:0
 }
 
 .body__roboto__thin {
@@ -59,6 +63,8 @@ body {
 main {
    
     background-color: #ebebeb;
+
+
 }
 
 .main__section__a {
