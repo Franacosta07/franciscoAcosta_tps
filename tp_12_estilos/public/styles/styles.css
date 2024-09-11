@@ -142,6 +142,7 @@ footer {
 .footer__section i {
     font-size: 2em;
     color: var(--color-Celeste);
+    margin-bottom: 10px;
 }
 
 .footer__copyright {
