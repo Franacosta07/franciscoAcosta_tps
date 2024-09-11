@@ -82,11 +82,11 @@ header {
     /* Color de fondo del cuadrado */
     border-radius: 5px;
     /* Bordes redondeados opcionales */
-    margin: 0 auto;
+    margin: 0 auto 10px;
     /* Centrar el cuadrado en la página */
     font-size: 24px;
     /* Tamaño del ícono */
-
+color: var(--color-GrisClaro);
 }
 
 .header__logo {
