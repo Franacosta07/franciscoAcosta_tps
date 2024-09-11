@@ -1,6 +1,17 @@
 @import url("./variables.css");
 @import url("./general.css");
+body {
+    background-color: var(--color-GrisClaro);
+    margin: 0;
+    padding: 0;
 
+}
+
+.body__roboto__thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
 header {
     background-color: var(--color-Amarillo);
     font-size: 12px;
@@ -80,24 +91,16 @@ header {
 
 .header__logo {
     display: block;
-    width: 100px;
-    height: 50px;
-    padding-left: 20px;
-    padding-top: 20px;
-    size: 40px;
+   top: 40px;
+   right: 40px;
+
+}
+.header__logo img{
+    width: 135px;
+    height: 75px;
+ padding-left: 10px;
 }
 
-body {
-    background-color: var(--color-GrisClaro);
-    margin: 0;
-    padding: 0
-}
-
-.body__roboto__thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
 
 main {
 
