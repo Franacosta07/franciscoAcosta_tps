@@ -20,7 +20,18 @@ header {
     margin: 0%;
 
 }
+.header__logo {
+    display: block;
+    top: 40px;
+    right: 40px;
 
+}
+
+.header__logo img {
+    width: 135px;
+    height: 75px;
+    padding-left: 30px;
+}
 .header__busqueda {
     display: inline-block;
     /* Convierte el elemento en bloque */
@@ -34,7 +45,7 @@ header {
     /* Espacio alrededor del ícono */
     border: 1px solid var(--color-GrisOscuro);
     /*color del borde*/
-
+margin-left: 20px;
 }
 
 .header__compra {
@@ -82,25 +93,14 @@ header {
     /* Color de fondo del cuadrado */
     border-radius: 5px;
     /* Bordes redondeados opcionales */
-    margin: 0 auto 10px;
+    margin: 0 auto 0px;
     /* Centrar el cuadrado en la página */
     font-size: 24px;
     /* Tamaño del ícono */
     color: var(--color-GrisClaro);
 }
 
-.header__logo {
-    display: block;
-    top: 40px;
-    right: 40px;
 
-}
-
-.header__logo img {
-    width: 135px;
-    height: 75px;
-    padding-left: 10px;
-}
 
 
 main {
