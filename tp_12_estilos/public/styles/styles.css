@@ -1,22 +1,60 @@
 @import url("./variables.css");
 @import url("./general.css");
+
 header {
     background-color: var(--color-Amarillo);
     font-size: 12px;
     margin: 0%;
     padding-bottom: 10px;
-    padding-left:  10px;
+    padding-left: 10px;
 }
-.header__busqueda{
-    display: inline-block;                /* Convierte el elemento en bloque */
-    
-    left: 10px;                    /* Lo coloca a la izquierda con un margen de 10px */
-    top: 20px;                     /* Ajusta la distancia desde la parte superior */
-    background-color:var(--color-GrisClaro);       /* Fondo blanco alrededor de la lupa */
-    padding: 1px;                 /* Espacio alrededor del ícono */
-    border: 1px solid var(--color-GrisOscuro);       
-  
+
+.header__busqueda {
+    display: inline-block;
+    /* Convierte el elemento en bloque */
+
+    left: 10px;
+    /* Lo coloca a la izquierda con un margen de 10px */
+    top: 20px;
+    /* Ajusta la distancia desde la parte superior */
+    background-color: var(--color-GrisClaro);
+    /* Fondo blanco alrededor de la lupa */
+    padding: 1px;
+    /* Espacio alrededor del ícono */
+    border: 1px solid var(--color-GrisOscuro);
+    /*color del borde*/
+
 }
+
+.header__compra {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__enlaces {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__enlaces nav {
+    width: 100%;
+    /*asegura que el nav ocupe todo el ancho del viewport*/
+}
+
+.header__enlaces ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.header__enlaces a {
+    text-decoration: none;
+    /*quita  el subrayado*/
+
+}
+
 .header__menu {
 
     display: flex;
@@ -39,8 +77,9 @@ header {
     /* Tamaño del ícono */
 
 }
-.header__logo{
- display: block;
+
+.header__logo {
+    display: block;
     width: 100px;
     height: 50px;
     padding-left: 20px;
@@ -50,8 +89,8 @@ header {
 
 body {
     background-color: var(--color-GrisClaro);
-margin: 0;
-  padding:0
+    margin: 0;
+    padding: 0
 }
 
 .body__roboto__thin {
@@ -61,7 +100,7 @@ margin: 0;
 }
 
 main {
-   
+
     background-color: var(--color-GrisClaro);
 
 
@@ -87,9 +126,10 @@ main {
 footer {
     background-color: var(--color-GrisClaro);
     font-size: 12px;
-   
+
 }
-.footer__section{
+
+.footer__section {
     display: inline-block;
 
 }
