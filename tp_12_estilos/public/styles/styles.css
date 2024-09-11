@@ -124,26 +124,30 @@ main {
 }
 
 footer {
-    background-color: var(--color-GrisClaro);
+    background-color: #ffff;
     font-size: 12px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    padding-bottom: 10px;
+    position: relative; /*para poder acomodar el copyright*/
 }
 
 .footer__section {
-    display: inline-block;
-
-}
-/*cabiar color al section i*/
-
-.titulo_footer {
-    font-style: normal;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
+.footer__section i {
+    font-size: 2em;
+    color: var(--color-Celeste);
+}
 
-
-
-/*Cuerpos de texto: 12px
-Titulares (Basado en tu última visita/Ofertas): 24px
-Precios: 18px
-Descuentos: 16px
-Descripciones: 16px*/
+.footer__copyright {
+    position: absolute; /*posicion izquierda*/
+    bottom: 10px;
+    left: 10px;
+    text-align: left;
+    margin: 0;
+}
