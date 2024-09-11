@@ -1,5 +1,6 @@
 @import url("./variables.css");
 @import url("./general.css");
+
 body {
     background-color: var(--color-GrisClaro);
     margin: 0;
@@ -12,18 +13,17 @@ body {
     font-weight: 100;
     font-style: normal;
 }
+
 header {
     background-color: var(--color-Amarillo);
     font-size: 12px;
     margin: 0%;
-    padding-bottom: 10px;
-    padding-left: 10px;
+
 }
 
 .header__busqueda {
     display: inline-block;
     /* Convierte el elemento en bloque */
-
     left: 10px;
     /* Lo coloca a la izquierda con un margen de 10px */
     top: 20px;
@@ -86,19 +86,20 @@ header {
     /* Centrar el cuadrado en la página */
     font-size: 24px;
     /* Tamaño del ícono */
-color: var(--color-GrisClaro);
+    color: var(--color-GrisClaro);
 }
 
 .header__logo {
     display: block;
-   top: 40px;
-   right: 40px;
+    top: 40px;
+    right: 40px;
 
 }
-.header__logo img{
+
+.header__logo img {
     width: 135px;
     height: 75px;
- padding-left: 10px;
+    padding-left: 10px;
 }
 
 
@@ -134,7 +135,8 @@ footer {
     align-items: center;
     padding: 60px;
     padding-bottom: 10px;
-    position: relative; /*para poder acomodar el copyright*/
+    position: relative;
+    /*para poder acomodar el copyright*/
 }
 
 .footer__section {
@@ -149,7 +151,8 @@ footer {
 }
 
 .footer__copyright {
-    position: absolute; /*posicion izquierda*/
+    position: absolute;
+    /*posicion izquierda*/
     bottom: 10px;
     left: 10px;
     text-align: left;
