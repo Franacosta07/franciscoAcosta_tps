@@ -1,0 +1,161 @@
+@import url("./variables.css");
+@import url("./general.css");
+
+body {
+    background-color: var(--color-GrisClaro);
+    margin: 0;
+    padding: 0;
+
+}
+
+.body__roboto__thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    background-color: var(--color-Amarillo);
+    font-size: 12px;
+    margin: 0%;
+ padding-bottom: 20px;
+}
+.header__logo {
+    display: block;
+    top: 40px;
+    right: 40px;
+
+}
+
+.header__logo img {
+    width: 135px;
+    height: 75px;
+    padding-left: 30px;
+}
+.header__busqueda {
+    display: inline-block;
+    /* Convierte el elemento en bloque */
+    left: 10px;
+    /* Lo coloca a la izquierda con un margen de 10px */
+    top: 20px;
+    /* Ajusta la distancia desde la parte superior */
+    background-color: var(--color-GrisClaro);
+    /* Fondo blanco alrededor de la lupa */
+    padding: 1px;
+    /* Espacio alrededor del ícono */
+    border: 1px solid var(--color-GrisOscuro);
+    /*color del borde*/
+margin-left: 20px;
+}
+
+.header__compra {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__enlaces {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__enlaces nav {
+    width: 100%;
+    /*asegura que el nav ocupe todo el ancho del viewport*/
+}
+
+.header__enlaces ul {
+    padding: 0;
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+
+.header__enlaces a {
+    text-decoration: none;
+    /*quita  el subrayado*/
+
+}
+
+.header__menu {
+
+    display: flex;
+    /* Flexbox para centrar el contenido */
+    justify-content: center;
+    /* Centra horizontalmente el ícono */
+    align-items: center;
+    /* Centra verticalmente el ícono */
+    width: 50px;
+    /* Ancho del cuadrado */
+    height: 50px;
+    /* Altura del cuadrado, igual al ancho */
+    background-color: var(--color-Celeste);
+    /* Color de fondo del cuadrado */
+    border-radius: 5px;
+    /* Bordes redondeados opcionales */
+    margin: 0 auto 0px;
+    /* Centrar el cuadrado en la página */
+    font-size: 24px;
+    /* Tamaño del ícono */
+    color: var(--color-GrisClaro);
+  
+}
+
+
+
+
+main {
+
+    background-color: var(--color-GrisClaro);
+
+
+}
+
+.main__section__a {
+    background-color: var(--color-GrisOscuro);
+    font-size: 24px;
+}
+
+#precios {
+    font-size: 18px;
+}
+
+#descuentos {
+    font-size: 16px;
+}
+
+#descripciones {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #ffff;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    padding-bottom: 10px;
+    position: relative;
+    /*para poder acomodar el copyright*/
+}
+
+.footer__section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer__section i {
+    font-size: 2em;
+    color: var(--color-Celeste);
+    margin-bottom: 10px;
+}
+
+.footer__copyright {
+    position: absolute;
+    /*posicion izquierda*/
+    bottom: 10px;
+    left: 10px;
+    text-align: left;
+    margin: 0;
+}
