@@ -1,27 +1,48 @@
-* {
-  margin: 0;
-
-  box-sizing: border-box;
+*{
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body {
-  font-family: "Lato", sans-serif;
+body{
+    font-family: "Lato", sans-serif;
 }
-h1,
-h2,
-h3 {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-}
-a {
-  text-decoration: none;
-  color: #ffff;
-}
-.box__star{
-margin: 20px;
-display: inline-block;
-}
-/*header {
+h1, h2 {
     font-family: "Montserrat", sans-serif;
-    background-color: white;
-}*/
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.box--star {
+    margin: 20px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box--star hr{
+    width: 120px;
+    border: 2px solid white;
+}
+
+.box--star p i{
+    font-size: 30px;
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 3rem;
+        
+    }
+}
