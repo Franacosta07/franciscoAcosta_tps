@@ -36,22 +36,15 @@ header {
 
 .header__busqueda {
     display: inline-block;
-    /* Convierte el elemento en bloque */
     left: 10px;
-    /* Lo coloca a la izquierda con un margen de 10px */
     top: 20px;
-    /* Ajusta la distancia desde la parte superior */
-
     margin-left: 20px;
 }
 
 .header__busqueda__art {
     background-color: var(--color-GrisClaro);
-    /* Fondo blanco alrededor de la lupa */
     padding: 1px;
-    /* Espacio alrededor del ícono */
     border: 1px solid var(--color-GrisOscuro);
-    /*color del borde*/
     display: inline-block;
 }
 
@@ -83,30 +76,19 @@ header {
 
 .header__enlaces a {
     text-decoration: none;
-    /*quita  el subrayado*/
-
 }
 
 .header__menu {
 
     display: flex;
-    /* Flexbox para centrar el contenido */
     justify-content: center;
-    /* Centra horizontalmente el ícono */
     align-items: center;
-    /* Centra verticalmente el ícono */
     width: 50px;
-    /* Ancho del cuadrado */
     height: 50px;
-    /* Altura del cuadrado, igual al ancho */
     background-color: var(--color-Celeste);
-    /* Color de fondo del cuadrado */
     border-radius: 5px;
-    /* Bordes redondeados opcionales */
     margin: 0 auto 0px;
-    /* Centrar el cuadrado en la página */
     font-size: 24px;
-    /* Tamaño del ícono */
     color: var(--color-GrisClaro);
 
 }
@@ -142,7 +124,6 @@ main {
     padding: 15px;
     background-color: #ffff;
     display: flex;
-    /* FALTA ajustar posicion del contenido*/
     position: relative;
     flex-direction: column;
     justify-content: space-between;
@@ -210,7 +191,6 @@ footer {
     padding-bottom: 10px;
     position: relative;
     margin-top: 10px;
-    /*para poder acomodar el copyright*/
 }
 
 .footer__section {
@@ -226,7 +206,6 @@ footer {
 
 .footer__copyright {
     position: absolute;
-    /*posicion izquierda*/
     bottom: 10px;
     left: 10px;
     text-align: left;
