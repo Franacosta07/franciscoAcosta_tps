@@ -19,42 +19,52 @@ header {
     font-size: 12px;
     margin: 0%;
     padding-bottom: 20px;
+    width: 100vw;
 }
-
+.header__section{  /*ACA ESTOY TRABAJANDO*/
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding-top: 10px;
+}
 .header__logo {
-    display: block;
+
     top: 40px;
     right: 40px;
-
 }
 
 .header__logo img {
-    width: 135px;
+    width: 50vw;
     height: 75px;
-    padding-left: 30px;
 }
 
 .header__busqueda {
-    display: inline-block;
+
     left: 10px;
     top: 20px;
     margin-left: 20px;
+    color: var(--color-GrisOscuro);
+    width: 50vw;
 }
 
 .header__busqueda__art {
     background-color: var(--color-GrisClaro);
     padding: 1px;
-    border: 1px solid var(--color-GrisOscuro);
+    border: 1px solid var(--color-GrisClaro);
     display: inline-block;
+    border-radius: 10%;
 }
 
 .header__compra {
     display: block;
     text-align: center;
-    text-decoration: none;
     padding: 10px 0px 0px;
 }
-
+.header__compra a{
+    text-decoration: none;
+}
 .header__enlaces {
     display: flex;
     justify-content: flex-start;
@@ -102,7 +112,7 @@ main {
 
 }
 
-.main__section__ventas {
+.main__section__ventas { /*ACA ME ESTOY COPIANDO*/
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -212,7 +222,7 @@ footer {
     margin: 0;
 }
 
-@media (min-width: 361px)
+@media (min-width: 381px)
 /* TABLET */
     {
     #descripciones {
@@ -222,12 +232,22 @@ footer {
     header {
         padding-bottom: 1px;
     }
-
+    .header-top{
+     /*FALTA TERMINAR DE AJUSTAR EL HEADER EN TABLET Y DESKTOP*/
+    }
     .header__enlaces nav {
-        display: block;
+        display: flex;
+        justify-content: space-between;
 
     }
-
+    .header__enlaces ul{
+        display: flex; 
+        padding: 0;
+        margin: 0;
+    }
+    .header__enlaces ul li {
+        margin-right: 20px;
+    }
     .header__menu {
         display: none;
     }
@@ -247,7 +267,7 @@ footer {
 }
 
 
-@media (min-width: 768px)
+@media (min-width: 769px)
 /* DESKTOP */
     {
     #descripciones {
@@ -260,7 +280,17 @@ footer {
     }
 
     .header__enlaces nav {
-        display: block;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .header__enlaces ul{
+        display: flex; 
+        padding: 0;
+        margin: 0;
+    }
+    .header__enlaces ul li {
+        margin-right: 20px;
     }
 
     .header__compra {
