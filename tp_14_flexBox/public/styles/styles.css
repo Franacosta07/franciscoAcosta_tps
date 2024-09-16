@@ -125,12 +125,15 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: auto;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .main__div {
     margin-bottom: 10px;
+    width: 100%;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
@@ -142,6 +145,8 @@ main {
     /* FALTA ajustar posicion del contenido*/
     position: relative;
     flex-direction: column;
+    justify-content: space-between;
+    height: auto;
   
 }
 .main__div__precioDescuento{
@@ -168,9 +173,11 @@ main {
 }
 
 
-.main__section__a {
+.section-title {
     color: var(--color-GrisOscuro);
     font-size: 24px;
+    text-align: left;
+    margin: 20px;
 }
 
 .main__section__ventas h2 {
@@ -180,12 +187,12 @@ main {
 
 #precios {
     font-size: 18px;
-    width: 30%;
+    width: 70%;
 }
 
 #descuentos {
     font-size: 16px;
-    width: 70%;
+    width: 30%;
     color: var(--color-Verde);
 }
 
@@ -202,6 +209,7 @@ footer {
     padding: 60px;
     padding-bottom: 10px;
     position: relative;
+    margin-top: 10px;
     /*para poder acomodar el copyright*/
 }
 
@@ -248,10 +256,19 @@ footer {
     .header__compra {
         padding: 10px 0px 30px;
     }
+    .main__section__ventas {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main__div {
+        width: 48%;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
 }
 
 
-@media (min-width: 769px)
+@media (min-width: 768px)
 /* DESKTOP */
     {
     #descripciones {
@@ -269,6 +286,15 @@ footer {
 
     .header__compra {
         padding: 10px 0px 30px;
+    } 
+    .main__section__ventas {
+        justify-content: space-between;
+        flex-direction: row;
+    
+    }
+    .main__div {
+        width: 23%;
+        margin-bottom: 0px;
     }
 
 }
