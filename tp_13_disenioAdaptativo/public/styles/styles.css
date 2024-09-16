@@ -63,7 +63,8 @@ header {
 
 .header__enlaces nav {
     width: 100%;
-    /*asegura que el nav ocupe todo el ancho del viewport*/
+    display: none;
+
 }
 
 .header__enlaces ul {
@@ -107,18 +108,18 @@ header {
 main {
 
     background-color: var(--color-GrisClaro);
-  
+
     margin: 0 auto;
 
 }
 
-.main__section__ventas{
+.main__section__ventas {
     width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   margin: auto;
+    margin: auto;
 }
 
 .main__div {
@@ -141,12 +142,9 @@ main {
     padding: 5px 10px 10px 5px;
 }
 
-#descuentos {
-    color: var(--color-Verde);
-}
 
 .main__section__a {
-color: var(--color-GrisOscuro);
+    color: var(--color-GrisOscuro);
     font-size: 24px;
 }
 
@@ -156,6 +154,7 @@ color: var(--color-GrisOscuro);
 
 #descuentos {
     font-size: 16px;
+    color: var(--color-Verde);
 }
 
 #descripciones {
@@ -201,9 +200,15 @@ footer {
     #descripciones {
         display: block;
     }
+
     .main__div {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    
+
+    }
+
+    .header__enlaces nav {
+        display: block;
+
     }
 }
 
@@ -212,6 +217,11 @@ footer {
 /* DESKTOP */
     {
     #descripciones {
+        display: block;
+
+    }
+
+    .header__enlaces nav {
         display: block;
     }
 }
