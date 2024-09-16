@@ -124,9 +124,15 @@ main {
     padding: 15px;
     background-color: #ffff;
 }
-#envios{
+#envios {
     color: var(--color-Verde);
-}
+    border: 2px solid var(--color-Verde);
+    border-radius: 50%; 
+    width: 25px;
+    height: 25px;
+    padding: 5px 10px 10px 5px;
+  }
+  
 #descuentos{
     color: var(--color-Verde);
 }
