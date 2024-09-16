@@ -107,11 +107,19 @@ header {
 main {
 
     background-color: var(--color-GrisClaro);
-    width: 90vw;
+  
     margin: 0 auto;
 
 }
 
+.main__section__ventas{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin: auto;
+}
 
 .main__div {
     margin-bottom: 10px;
