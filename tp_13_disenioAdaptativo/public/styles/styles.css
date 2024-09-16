@@ -138,7 +138,7 @@ main {
 }
 
 .main__section__a {
-    background-color: var(--color-GrisClaro);
+color: var(--color-GrisOscuro);
     font-size: 24px;
 }
 
