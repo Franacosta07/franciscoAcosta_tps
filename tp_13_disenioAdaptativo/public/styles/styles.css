@@ -216,6 +216,9 @@ footer {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
 
     }
+    header{
+        padding-bottom: 1px;
+    }
 
     .header__enlaces nav {
         display: block;
@@ -238,7 +241,9 @@ footer {
         display: block;
 
     }
-
+    header{
+        padding-bottom: 1px;
+    }
     .header__enlaces nav {
         display: block;
     }
