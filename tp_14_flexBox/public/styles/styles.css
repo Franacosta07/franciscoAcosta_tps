@@ -138,15 +138,24 @@ main {
     border-top: 1px solid var(--color-GrisClaro);
     padding: 15px;
     background-color: #ffff;
+    display: flex; /* FALTA ajustar posicion del contenido*/
+position: relative; 
 }
 
-#envios {
+
+.main__div__article i {
     color: var(--color-Verde);
-    border: 2px solid var(--color-Verde);
+    border: 1px solid var(--color-Verde);
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    padding: 5px 10px 10px 5px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    position: absolute;
+    display: block;
+    right: 20px;
+    top: -15px;
+    background-color: #ffff;
 }
 
 
@@ -154,7 +163,8 @@ main {
     color: var(--color-GrisOscuro);
     font-size: 24px;
 }
-.main__section__ventas h2{
+
+.main__section__ventas h2 {
     padding: 20px 0;
     margin: 0 auto 0 0;
 }
@@ -216,7 +226,8 @@ footer {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
 
     }
-    header{
+
+    header {
         padding-bottom: 1px;
     }
 
@@ -228,6 +239,7 @@ footer {
     .header__menu {
         display: none;
     }
+
     .header__compra {
         padding: 10px 0px 30px;
     }
@@ -241,12 +253,15 @@ footer {
         display: block;
 
     }
-    header{
+
+    header {
         padding-bottom: 1px;
     }
+
     .header__enlaces nav {
         display: block;
     }
+
     .header__compra {
         padding: 10px 0px 30px;
     }
