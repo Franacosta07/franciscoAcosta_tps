@@ -59,12 +59,13 @@ header {
     display: block;
     text-align: center;
     text-decoration: none;
-    padding: 10px 0px 30px;
+    padding: 10px 0px 0px;
 }
 
 .header__enlaces {
     display: flex;
     justify-content: flex-start;
+    margin: 10px;
 }
 
 .header__enlaces nav {
@@ -224,6 +225,9 @@ footer {
     .header__menu {
         display: none;
     }
+    .header__compra {
+        padding: 10px 0px 30px;
+    }
 }
 
 
@@ -237,6 +241,9 @@ footer {
 
     .header__enlaces nav {
         display: block;
+    }
+    .header__compra {
+        padding: 10px 0px 30px;
     }
 
 }
