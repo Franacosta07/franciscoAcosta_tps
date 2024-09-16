@@ -141,6 +141,7 @@ main {
     display: flex;
     /* FALTA ajustar posicion del contenido*/
     position: relative;
+    flex-direction: column;
   
 }
 .main__div__precioDescuento{
@@ -190,7 +191,6 @@ main {
 
 #descripciones {
     font-size: 16px;
-    margin-top: 15px;
 }
 
 footer {
