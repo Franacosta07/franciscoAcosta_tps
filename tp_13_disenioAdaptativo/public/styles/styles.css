@@ -41,11 +41,12 @@ header {
     /* Lo coloca a la izquierda con un margen de 10px */
     top: 20px;
     /* Ajusta la distancia desde la parte superior */
-   
+
     margin-left: 20px;
 }
-.header__busqueda__art{
-     background-color: var(--color-GrisClaro);
+
+.header__busqueda__art {
+    background-color: var(--color-GrisClaro);
     /* Fondo blanco alrededor de la lupa */
     padding: 1px;
     /* Espacio alrededor del ícono */
@@ -58,6 +59,7 @@ header {
     display: block;
     text-align: center;
     text-decoration: none;
+    padding: 10px 0px 30px;
 }
 
 .header__enlaces {
@@ -214,6 +216,10 @@ footer {
         display: block;
 
     }
+
+    .header__menu {
+        display: none;
+    }
 }
 
 
@@ -228,4 +234,5 @@ footer {
     .header__enlaces nav {
         display: block;
     }
+
 }
