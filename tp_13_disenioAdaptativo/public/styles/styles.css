@@ -41,13 +41,17 @@ header {
     /* Lo coloca a la izquierda con un margen de 10px */
     top: 20px;
     /* Ajusta la distancia desde la parte superior */
-    background-color: var(--color-GrisClaro);
+   
+    margin-left: 20px;
+}
+.header__busqueda__art{
+     background-color: var(--color-GrisClaro);
     /* Fondo blanco alrededor de la lupa */
     padding: 1px;
     /* Espacio alrededor del ícono */
     border: 1px solid var(--color-GrisOscuro);
     /*color del borde*/
-    margin-left: 20px;
+    display: inline-block;
 }
 
 .header__compra {
