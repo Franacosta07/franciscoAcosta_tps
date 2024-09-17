@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("./variables.css");
 @import url("./general.css");
-
+@import url("./forms.css");
 /* HEADER*/
 .header {
   background-color: var(--color-azul);
@@ -9,6 +9,7 @@
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .header h2 {
@@ -62,10 +63,19 @@
   padding: 80px 10px;
   color: var(--color-azul);
 }
-.section--porfolio .box--star hr {
-  width: 80px;
+
+.section--contact {
+  text-align: center;
+  padding: 80px 10px;
+  color: var(--color-azul);
+}
+
+.section--porfolio hr,
+.section--contact hr {
+ 
   border: 2px solid var(--color-azul);
 }
+
 .box-images--porfolio {
   display: flex;
   flex-direction: column;
@@ -94,14 +104,9 @@
 .box-text--about p {
   text-align: left;
   line-height: 30px;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
-.section--about p {
-  text-align: left;
-  line-height: 30px;
-  font-size: 1.3rem;
-}
 
 .section--about a {
   display: inline-block;
@@ -146,8 +151,8 @@
   padding: 0 60px;
   gap: 5px;
 }
-.box-span{
-color: var(--color-verde);
+.box-span {
+  color: var(--color-verde);
 }
 
 @media (min-width: 768px) {
@@ -160,7 +165,7 @@ color: var(--color-verde);
     width: 48%;
   }
   .box-text--about {
-    padding: 0px 30px;
+    padding: 0px;
   }
   .footer {
     display: flex;
@@ -178,6 +183,23 @@ color: var(--color-verde);
     justify-content: space-between;
     align-items: center;
   }
+  .section--about {
+    padding: 80px 40px;
+  }
+  .section--contact {
+    padding: 80px 40px;
+  }
+  .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer article {
+    width: 33%;
+  }
+  .box-redes--footer {
+    padding: 0 40px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -186,7 +208,7 @@ color: var(--color-verde);
     justify-content: space-between;
     align-items: center;
   }
- .nav--principal {
+  .nav--principal {
     display: block;
     text-transform: uppercase;
   }
@@ -199,7 +221,7 @@ color: var(--color-verde);
     display: none;
   }
   .box-images--porfolio {
-   padding: 0;
+    padding: 0;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -209,9 +231,18 @@ color: var(--color-verde);
   .box-text--about {
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
     width: 50vw;
+   padding: 0px;
   }
- 
+
+  .section--about {
+    padding: 80px 40px;
+  }
+  .footer {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
 }

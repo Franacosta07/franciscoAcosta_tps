@@ -92,9 +92,39 @@
       </section>
 
       <!-- seccion del formulario de contacto -->
-      <section>
+      <section class="section--contact">
         <h2>contact me</h2>
-      </section>
+      
+      <div class="box--star">
+        <hr />
+        <p><i class="fa-solid fa-star"></i></p>
+        <hr />
+      </div>
+      <form action="" class="form">
+        <div class="form__box">
+          <label class="form__label" for="name">Name</label>
+          <input class="form__control" type="text" id="name" name="name" required />
+       
+        </div>
+        <div class="form__box">
+          <label class="form__label" for="email">Email Addres</label>
+          <input class="form__control" type="email" id="email" name="email">
+        </div>
+        <div class="form__box">
+          <label class="form__label" for="phone">Phone Number</label>
+          <input class="form__control" type="tel" id="phone" name="phone">
+        </div>
+        <div class="form__box">
+          <label class="form__label" for="message">Message:</label>
+          <textarea class="form__control" rows="5"
+          id="message" 
+          name="message">
+        </textarea>
+        </div>
+        <div>
+          <button class="form__buttom" type="submit">Send</button> 
+        </div>
+      </form></section>
     </main>
     <!-- pie de pagina (footer) -->
      <footer class="footer">
