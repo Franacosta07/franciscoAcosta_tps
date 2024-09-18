@@ -222,7 +222,7 @@ footer {
     margin: 0;
 }
 
-@media (min-width: 381px)
+@media (min-width: 768px)
 /* TABLET */
     {
     #descripciones {
@@ -267,7 +267,7 @@ footer {
 }
 
 
-@media (min-width: 769px)
+@media (min-width: 1024px)
 /* DESKTOP */
     {
     #descripciones {
