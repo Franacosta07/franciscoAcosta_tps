@@ -224,11 +224,7 @@ footer {
     margin: 0;
 }
 
-<<<<<<< HEAD
-@media (min-width: 721px)
-=======
 @media (min-width: 768px)
->>>>>>> 13cb0a04a772bd5eb038f7f7a69ce218d6afd317
 /* TABLET */
     {
     #descripciones {
