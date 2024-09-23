@@ -34,6 +34,7 @@ header {
     justify-content: space-between;
     margin: 0 20px;
     padding-top: 10px;
+    width: 100vw;
 }
 .header__logo {
 
@@ -236,7 +237,7 @@ footer {
 
     header {
         padding-bottom: 1px;
-        font-size: 1.1rem;
+    
    
     }
     .header--top {
@@ -249,7 +250,9 @@ footer {
         width: 100vw;
     }
     .header__section{
-        
+        margin: 0;
+        padding: 0;
+        justify-content: space-around;
     }
     .header__logo img {
         width: auto;
@@ -258,15 +261,16 @@ footer {
 
     .header__busqueda {
         width: auto; /* Deja que la barra de búsqueda se ajuste al contenido */
-        margin-left: 20px;
+        margin: 0;
         flex-grow: 1;
+        display: block;
     }
     .header__compra {
-        text-align: right;
+        text-align: center;
         padding: 0;
-        width: 400px;
-       height: auto;
-       margin-right: 50px;
+        width: 53vw;
+        display: block;
+     
     }
     .header__enlaces nav {
         display: flex;
@@ -328,6 +332,7 @@ footer {
     .header__logo img {
         width: auto; /* Tamaño más grande del logo en pantallas grandes */
         height: 100px;
+        margin-left: 30px;
     }
 
     .header__enlaces nav {
