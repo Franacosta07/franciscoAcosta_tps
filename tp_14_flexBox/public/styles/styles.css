@@ -17,13 +17,19 @@ body {
 header {
     background-color: var(--color-Amarillo);
     font-size: 12px;
-    margin: 0%;
+    margin: 0;
     padding-bottom: 20px;
     width: 100vw;
 }
-.header__section{  /*ACA ESTOY TRABAJANDO*/
+.header--top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.header__section{
     display:flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     align-items: center;
     justify-content: space-between;
     margin: 0 20px;
@@ -42,8 +48,8 @@ header {
 
 .header__busqueda {
 
-    left: 10px;
-    top: 20px;
+    /*left: 10px;
+    top: 20px;*/
     margin-left: 20px;
     color: var(--color-GrisOscuro);
     width: 50vw;
@@ -60,11 +66,10 @@ header {
 .header__compra {
     display: block;
     text-align: center;
-    padding: 10px 0px 0px;
-}
-.header__compra a{
+    padding: 10px 0 0;
     text-decoration: none;
 }
+
 .header__enlaces {
     display: flex;
     justify-content: flex-start;
@@ -112,7 +117,7 @@ main {
 
 }
 
-.main__section__ventas { /*ACA ME ESTOY COPIANDO*/
+.main__section__ventas {
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -222,7 +227,7 @@ footer {
     margin: 0;
 }
 
-@media (min-width: 381px)
+@media (min-width: 721px)
 /* TABLET */
     {
     #descripciones {
@@ -231,15 +236,45 @@ footer {
 
     header {
         padding-bottom: 1px;
+        font-size: 1.1rem;
+   
     }
-    .header-top{
-     /*FALTA TERMINAR DE AJUSTAR EL HEADER EN TABLET Y DESKTOP*/
+    .header--top {
+        display: flex; /* Flexbox para alinear los elementos */
+        flex-direction: row; /* Alinear en una fila */
+        justify-content: flex-start; /* Espacio entre los elementos */
+        align-items: center; /* Centrar verticalmente */
+        margin: 0 20px;
+        height: 150px;
+        width: 100vw;
+    }
+    .header__section{
+        
+    }
+    .header__logo img {
+        width: auto;
+        height: 75px;
+    }
+
+    .header__busqueda {
+        width: auto; /* Deja que la barra de búsqueda se ajuste al contenido */
+        margin-left: 20px;
+        flex-grow: 1;
+    }
+    .header__compra {
+        text-align: right;
+        padding: 0;
+        width: 400px;
+       height: auto;
+       margin-right: 50px;
     }
     .header__enlaces nav {
         display: flex;
         justify-content: space-between;
+        margin: 0px 30px;
 
     }
+   
     .header__enlaces ul{
         display: flex; 
         padding: 0;
@@ -252,9 +287,6 @@ footer {
         display: none;
     }
 
-    .header__compra {
-        padding: 10px 0px 30px;
-    }
     .main__section__ventas {
         flex-direction: row;
         justify-content: space-between;
@@ -267,7 +299,7 @@ footer {
 }
 
 
-@media (min-width: 769px)
+@media (min-width: 1024px)
 /* DESKTOP */
     {
     #descripciones {
@@ -277,12 +309,31 @@ footer {
 
     header {
         padding-bottom: 1px;
+        font-size: 1.1rem;
+
+    }
+    .header--top {
+        display: flex; /* Flexbox para alinear los elementos */
+        flex-direction: row; /* Alinear en una fila */
+        justify-content: space-around; /* Espacio entre los elementos */
+        align-items: center; /* Centrar verticalmente */
+        margin: 0px;
+        height: 150px;
+        width: 100vw;
+    }
+    .header__section{
+       margin: 0px;
+    }
+
+    .header__logo img {
+        width: auto; /* Tamaño más grande del logo en pantallas grandes */
+        height: 100px;
     }
 
     .header__enlaces nav {
         display: flex;
         justify-content: space-between;
-
+        margin: 0px 30px;
     }
     .header__enlaces ul{
         display: flex; 
@@ -293,9 +344,7 @@ footer {
         margin-right: 20px;
     }
 
-    .header__compra {
-        padding: 10px 0px 30px;
-    } 
+   
     .main__section__ventas {
         justify-content: space-between;
         flex-direction: row;
