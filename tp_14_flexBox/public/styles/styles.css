@@ -29,7 +29,6 @@ header {
 }
 .header__section{
     display:flex;
-    /*flex-direction: row;*/
     align-items: center;
     justify-content: space-between;
     margin: 0 20px;
@@ -48,9 +47,6 @@ header {
 }
 
 .header__busqueda {
-
-    /*left: 10px;
-    top: 20px;*/
     margin-left: 20px;
     color: var(--color-GrisOscuro);
     width: 50vw;
@@ -241,10 +237,10 @@ footer {
    
     }
     .header--top {
-        display: flex; /* Flexbox para alinear los elementos */
-        flex-direction: row; /* Alinear en una fila */
-        justify-content: flex-start; /* Espacio entre los elementos */
-        align-items: center; /* Centrar verticalmente */
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-start; 
+        align-items: center; 
         margin: 0 20px;
         height: 150px;
         width: 100vw;
@@ -260,7 +256,7 @@ footer {
     }
 
     .header__busqueda {
-        width: auto; /* Deja que la barra de búsqueda se ajuste al contenido */
+        width: auto; 
         margin: 0;
         flex-grow: 1;
         display: block;
@@ -317,10 +313,10 @@ footer {
 
     }
     .header--top {
-        display: flex; /* Flexbox para alinear los elementos */
-        flex-direction: row; /* Alinear en una fila */
-        justify-content: space-around; /* Espacio entre los elementos */
-        align-items: center; /* Centrar verticalmente */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; 
         margin: 0px;
         height: 150px;
         width: 100vw;
@@ -330,7 +326,7 @@ footer {
     }
 
     .header__logo img {
-        width: auto; /* Tamaño más grande del logo en pantallas grandes */
+        width: auto;
         height: 100px;
         margin-left: 30px;
     }
